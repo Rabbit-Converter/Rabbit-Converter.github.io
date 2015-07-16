@@ -45,11 +45,12 @@ ul.actions {
   cursor: default;
   list-style: none;
   padding-left: 0;
+  
 }
 
 ul.actions li {
   display: inline-block;
-  padding: 0 1em 0 0;
+  padding: .5em .5em 0 0.5em;
   vertical-align: middle;
 }
 
