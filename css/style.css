@@ -1,0 +1,77 @@
+body {
+  margin:0px;
+  padding:0px;
+}
+#header {
+  background: #4696e5;
+  height: 100vh;
+  min-height: 35em;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -0.6499999761581421px;
+}
+
+#header .top {
+  padding: 10% 0;
+}
+
+#header .content {
+  vertical-align: baseline;
+  color:#FFF;
+  font-size: 24px;
+  color: rgb(208, 228, 248);
+  font-weight: normal;
+  text-align:center;
+  padding: 10% 0;
+}
+
+#header .content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  color:#FFF;
+  font-weight: bold;
+}
+
+ul.actions {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.actions li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+  vertical-align: middle;
+}
+
+.button {
+  border-radius: 6px;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  height: 2.85em;
+  line-height: 2.95em;
+  padding: 0 1.75em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size:20px;
+  background-color: transparent;
+  color: #FFF;
+  box-shadow: inset 0 0 0 2px #e6e6e6;
+  
+}
+
+.button.icon::before {
+  margin-right: 0.5em;
+}
